@@ -1,0 +1,1 @@
+This is instant consultation component readme file. You have been provided find doctor search component and  doctorCard fuctionality to display doctors along. You need to integrate instant consultation component woth your react website.
