@@ -27,9 +27,9 @@ jobs:
 
     - name: Build Docker image
       run: |
-        docker build -t us.icr.io/sn-labs-anamikaa/medical_app .
-        docker tag us.icr.io/sn-labs-anamikaa/medical_app:latest us.icr.io/sn-labs-anamikaa/medical_app:latest
+        docker build -t us.icr.io/sn-labs-ritikaj/medical_app2 .
+        docker tag us.icr.io/sn-labs-ritikaj/medical_app2:latest us.icr.io/sn-labs-ritikaj/medical_app2:latest
     - name: Docker login
       run: docker login
     - name: Docker run
-      run: docker run -d -p 8080:3000 us.icr.io/sn-labs-anamikaa/medical_app:latest
+      run: docker run -d -p 8080:3000 us.icr.io/sn-labs-ritikaj/medical_app2:latest
