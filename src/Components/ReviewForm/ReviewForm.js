@@ -91,10 +91,11 @@ const ReviewForm = () => {
                     )}
                   </Popup>
                 ) : (
-                  <button className="give-review-button" disabled>
-                    Give Review
-                  </button>
-                )}
+         // <button className="give-review-button" disabled>
+                   //  Give Review
+                 //  </button>
+                // )
+                  }
               </td>
               <td>
                 {reviewData[report.serialNumber] && (
